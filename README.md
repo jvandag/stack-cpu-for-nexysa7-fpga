@@ -38,14 +38,14 @@ Program memory used in example:
 ## Instruction Information
 Instruction Format: `<Opcode (5 bits)>`\_`0`\_`<Immediate Value/Data (11 bits)>`
 
-| **Opcode**       | **Binary (5 bits)** | **Description**                                                                                           |
-|------------------|---------------------|-----------------------------------------------------------------------------------------------------------|
-| `PUSH_IMMEDIATE` | `00000`            | Push immediate value onto the top of the stack                                                            |
+| **Opcode**       | **Binary (5 bits)** | **Description**                                                                                          |
+|------------------|---------------------|----------------------------------------------------------------------------------------------------------|
+| `PUSH_IMMEDIATE` | `00000`            | Push the immediate value onto the top of the stack                                                        |
 | `ADD`            | `00001`            | Pop top two stack elements, add them, and push the result                                                 |
 | `SUB`            | `00010`            | Pop top two stack elements, subtract (second from top - top), and push the result                         |
 | `MUL`            | `00011`            | Pop top two stack elements, multiply them, and push the result                                            |
 | `DIV`            | `00100`            | Pop top two stack elements, divide (second from top ÷ top), and push the result                           |
-| `MOD`            | `00101`            | Pop top two stack elements, take (second from top % top), and push the result                             |
+| `MOD`            | `00101`            | Pop top two stack elements, modulo (second from top % top), and push the result                           |
 | `AND`            | `00110`            | Pop top two stack elements and perform a bitwise AND, then push the result                                |
 | `OR`             | `00111`            | Pop top two stack elements and perform a bitwise OR, then push the result                                 |
 | `INVERT`         | `01000`            | Pop top of stack and perform a bitwise INVERT, then push the result                                       |
