@@ -1,7 +1,7 @@
 # Stack CPU for the Nexys A7 FPGA
 A SystemVerilog implementation of a simple stack based CPU made for the Nexys A7 FPGA
 
-Made as part of the "SystemVerilog and FPGA Programming" course at Portland State University, instructed by Roy Kravitz during Fall 2024. Uses reverse polish notation for arithemtic and logic operations.
+Made as part of the "SystemVerilog and FPGA Programming" course at Portland State University, instructed by Roy Kravitz during Fall 2024. Uses reverse polish notation for arithmetic and logic operations.
 
 Utilizes Clock IP as well as memory IP to load program instructions from a .coe file
 
