@@ -32,7 +32,7 @@ localparam PC_WIDTH_DEF = $clog2(PGRM_MEM_DEPTH_DEF);	//number of addr bits PC
         AND            = 5'b00110,  // Bitwise AND (top two stack elements)
         OR             = 5'b00111,  // Bitwise OR (top two stack elements)
         INVERT         = 5'b01000,  // Bitwise INVERT (single stack element)
-		HALT_CPU	   = 5'b11111	// HALT - stops the program until reset is asserted
+	HALT_CPU	   = 5'b11111	// HALT - stops the program until reset is asserted
  } opcode_t;
  
  endpackage: stackCPU_DEFS
